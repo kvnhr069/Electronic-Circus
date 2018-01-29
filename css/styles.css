@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(22, 22, 22), transparent),
+                linear-gradient(to top, rgba(55, 0, 255, 0.582), transparent),
+                linear-gradient(to right bottom, rgb(40, 0, 114), transparent 20%),
+                url(https://images.unsplash.com/photo-1500252124339-44ed473934dd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=39b83326d81eb0b53f153a3110c3944e&auto=format&fit=crop&w=1950&q=80);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
+.main-nav {
+    width: 60%;
+    height: 5vh;
+    background: rgba(10, 10, 10, 0.425);
+    margin: auto;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-nav ul {
+    justify-content: center;
+    display: flex;
+    flex-direction: space-between;
+    height: 100%;
+    
+}
+
+.main-nav ul li {
+    list-style: none;
+    height: 100%;
+    width: auto;
+    align-self: center;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    transition: ease-in-out 200ms;
+}
+
+.main-nav ul li:hover {
+    background: rgb(255, 72, 0);
+    transition: ease-in-out 200ms;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+.main-nav ul li a:hover {
+    color: rgb(216, 216, 216);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner {
+    height: 50vh;
+    width: 60%;
+    border: 0.15em solid rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 2em;
+    background: url(https://images.unsplash.com/photo-1498721425774-488298864da7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2baf20a7099ada8555b2d6df0babade2&auto=format&fit=crop&w=1950&q=80);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.slider-arrows {
+    height: 3em;
+    width: 7em;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 0.5em;
+}
+
+.slider-arrow {
+    height: 100%;
+    width: 3.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.arrow {
+    color: white;
+    font-size: 5em;
+    align-self: center;
+}
