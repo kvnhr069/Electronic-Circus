@@ -7,6 +7,7 @@
         <link rel="scripts" href="functions.js">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="icon" href="img//favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
@@ -34,9 +35,9 @@
                 <div class="main-nav">
                     <ul>
                         <li class="menu-item"><a href="#"><strong>Home</strong></a></li>
-                        <li class="menu-item"><a href="#"><strong>News</strong></a></li>
+                        <li class="menu-item"><a href="#news"><strong>News</strong></a></li>
+                        <li class="menu-item"><a href="#section-events"><strong>Events</strong></a></li>
                         <li class="menu-item"><a href="#"><strong>Playlists</strong></a></li>
-                        <li class="menu-item"><a href="#"><strong>Events</strong></a></li>
                         <li class="menu-item services"><a href="#"><strong>Services</strong><i class="fa fa-caret-down sub-icon" aria-hidden="true"></i></a></li>
                         <li class="menu-item"><a href="#"><strong>Contact</strong></a></li>
                     </ul>
@@ -53,7 +54,7 @@
         </header>
 
         <main>
-            <div class="banner">
+            <div class="banner animated fadeInUp">
 
                 <div class="slider">
                     <div class="slide one"></div>
@@ -64,7 +65,7 @@
                 </div>
 
             </div>
-            <section>
+            <section id="section-news">
                 <div class="wrapper">
                     <div class="border-purple">
                         <div class="column">
@@ -90,9 +91,235 @@
                 </div>
             </section>
 
-            <section>
+            <section id="section-events">
             <div class="wrapper events">
+                <div class="title-events">
+                    <div class="border-events"></div>
+                    <h1>Upcoming Events</h1>
+                    <div class="border-events"></div>
+                </div>
+                <div class="events-table">
+                    <div class="title-table"><h1 id="events-US">United States</h1></div>
+                    <div id="table-US" class="table-data">
+                        <table>
+                            <tr>
+                                <th>Event</th>
+                                <th>Location</th>
+                                <th>State</th>
+                                <th>Date</th>
+                            </tr>
+                            <tr>
+                                <td>Middlelands</td>
+                                <td>Texas Bandmasters Association</td>
+                                <td>Texas</td>
+                                <td>02/11/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Imagine Festival</td>
+                                <td>Atlanta Motor Speedway</td>
+                                <td>Georgia</td>
+                                <td>02/17/2018</td>
+                            </tr>
+                            <tr>
+                                <td>What The Festival</td>
+                                <td>Wolf Run Ranch</td>
+                                <td>Oregon</td>
+                                <td>03/04/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Movement Electronic Music Festival</td>
+                                <td>Detroit</td>
+                                <td>Michigan</td>
+                                <td>03/24/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Nocturnal Wonderland</td>
+                                <td>San Bernardino</td>
+                                <td>California</td>
+                                <td>04/21/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Electric Zoo</td>
+                                <td>New York City</td>
+                                <td>New York</td>
+                                <td>05/17/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Escape: Psycho Circus</td>
+                                <td>San Bernardino</td>
+                                <td>California</td>
+                                <td>05/25/2018</td>
+                            </tr>
+                            <tr>
+                                <td>California</td>
+                                <td>Rothbury</td>
+                                <td>Michigan</td>
+                                <td>06/14/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Ultra Music Festival</td>
+                                <td>Miami</td>
+                                <td>Florida</td>
+                                <td>06/17/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Electric Daisy Carnival Las Vegas</td>
+                                <td>Las Vegas</td>
+                                <td>Nevada</td>
+                                <td>07/02/2018</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="events-table">
+                    <div class="title-table"><h1 id="events-DE">Germany</h1></div>
+                    <div id="table-DE" class="table-data">
+                        <table>
+                            <tr>
+                                <th>Event</th>
+                                <th>Location</th>
+                                <th>State</th>
+                                <th>Date</th>
+                            </tr>
+                            <tr>
+                                <td>Sea You Festival</td>
+                                <td>Tunisee, Freiburg</td>
+                                <td>Baden-Württemberg</td>
+                                <td>02/21/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Utopia Festival</td>
+                                <td>Moosburg a.d. Isaar</td>
+                                <td>Bayern</td>
+                                <td>03/07/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Echelon</td>
+                                <td>ehem. U.S. Kaserne, Bad Aibling</td>
+                                <td>Bayern</td>
+                                <td>03/10/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Ikarus Festival</td>
+                                <td>Allgäu Airport Memmingen</td>
+                                <td>Bayern</td>
+                                <td>03/18/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Open Beatz</td>
+                                <td>Herzogenaurach</td>
+                                <td>Bayern</td>
+                                <td>04/20/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Airbeat One</td>
+                                <td>Neustadt-Glewe</td>
+                                <td>Mecklenburg-Vorpommern</td>
+                                <td>04/25/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Sonne Mond Sterne</td>
+                                <td>Saalburg Beach</td>
+                                <td>Thüringen</td>
+                                <td>05/11/2018</td>
+                            </tr>
+                            <tr>
+                                <td>World Club Dome</td>
+                                <td>Commerzbank Arena, Frankfurt</td>
+                                <td>Hessen</td>
+                                <td>06/28/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Nature One</td>
+                                <td>Raketenbasis Pydna, Kastellaun / Hunsrück</td>
+                                <td>Rheinland-Pfalz</td>
+                                <td>07/23/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Parookaville</td>
+                                <td>Airport Weeze</td>
+                                <td>Nordrhein-Westfalen</td>
+                                <td>07/26/2018</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="events-table">
+                    <div class="title-table"><h1 id="events-FR">France</h1></div>
+                    <div id="table-FR" class="table-data">
+                        <table>
+                            <tr>
+                                <th>Event</th>
+                                <th>Location</th>
+                                <th>State</th>
+                                <th>Date</th>
+                            </tr>
+                            <tr>
+                                <td>Ostend Snow</td>
+                                <td>Allos</td>
+                                <td>Provence-Alpes-Côte d’Azur</td>
+                                <td>07/21/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Kolorz Festival</td>
+                                <td>Carpentras</td>
+                                <td>Provence-Alpes-Côte d’Azur</td>
+                                <td>07/21/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Epidemic Experience</td>
+                                <td>Sélestat</td>
+                                <td>Bas-Rhin</td>
+                                <td>07/21/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Hololènce Festival</td>
+                                <td>Grenoble</td>
+                                <td>Rhône-Alpes</td>
+                                <td>07/21/2018</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="events-table">
+                    <div class="title-table"><h1 id="events-NL">Netherlands</h1></div>
+                    <div id="table-NL" class="table-data">
+                        <table>
+                            <tr>
+                                <th>Event</th>
+                                <th>Location</th>
+                                <th>State</th>
+                                <th>Date</th>
+                            </tr>
+                            <tr>
+                                <td>Sonic Acts</td>
+                                <td>Amsterdam</td>
+                                <td>North Holland</td>
+                                <td>07/21/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Free Your Mind Festival</td>
+                                <td>Arnhem</td>
+                                <td>Gelderland</td>
+                                <td>07/21/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Awakenings Festival</td>
+                                <td>Spaarnwoude</td>
+                                <td>North Holland</td>
+                                <td>07/21/2018</td>
+                            </tr>
+                            <tr>
+                                <td>Mysteryland</td>
+                                <td>Haarlemmermeer</td>
+                                <td>North Holland</td>
+                                <td>07/21/2018</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
 
+                
             </div>
             </section>
         </main>

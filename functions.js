@@ -23,3 +23,26 @@ $('.sub').mouseenter(function() {
 $('.sub').mouseleave(function() {
     $('.sub').hide();
 });
+
+
+/* --- DISPLAYS EVENT DATA --- */
+
+$( "#events-US" ).click(function() {
+  $( "#table-US" ).slideToggle( "slow", function() {
+  });
+});
+
+$( "#events-DE" ).click(function() {
+  $( "#table-DE" ).slideToggle( "slow", function() {
+  });
+});
+
+$( "#events-FR" ).click(function() {
+  $( "#table-FR" ).slideToggle( "slow", function() {
+  });
+});
+
+$( "#events-NL" ).click(function() {
+  $( "#table-NL" ).slideToggle( "slow", function() {
+  });
+});
