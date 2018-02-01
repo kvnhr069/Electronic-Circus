@@ -583,7 +583,7 @@ table td {
 
 .wrapper.contact {
     width: 60%;
-    height: 50vh;
+    height: auto;
     margin: auto;
     margin-top: 2em;
     background: rgba(0, 0, 0, 0.753);
@@ -614,7 +614,7 @@ table td {
     align-self: center;
     margin-top: 2em;
     margin-bottom: 1em;
-    height: 3em;
+    height: 2em;
     border-radius: 0.2em;
     background: linear-gradient(to top, rgb(87, 0, 128), rgb(47, 0, 133), transparent)
                 rgb(34, 0, 128);
@@ -646,6 +646,10 @@ table td {
 
 .artist-info {
     width: 30%;
+}
+
+.song-info {
+    width: 100%;
 }
 
 #description {

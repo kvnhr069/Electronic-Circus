@@ -1,0 +1,251 @@
+
+
+
+
+@media only screen and (min-width : 425px) and (max-width: 767px) {
+    
+        header .main-info {
+            display: none;
+         }
+     
+        nav {
+            display: none;
+         }
+     
+         .banner {
+             width:  100%;
+
+         }
+     
+         .wrapper {
+             width: 100%;
+             margin-top: 0;
+             border-top: 3px solid black;
+             border-bottom: 3px solid black;
+         }
+     
+         .column {
+             padding-right: 1em;
+         }
+ 
+         .wrapper.events {
+             width: 100%;
+             margin: 0;
+         }
+
+         .events h1 {
+             font-size: 1.7em;
+         }
+     
+         .wrapper.artists {
+             width: 100%;
+             margin: 0;
+         }
+     
+         .container-artists {
+             width: 100%;
+             flex-wrap: wrap;
+         }
+     
+         .card-artist {
+             width: 40%;
+             margin: 1em;
+         }
+ 
+         .wrapper.contact {
+             margin: 0;
+             width: 100%;
+             height: auto;
+         }
+ 
+         .contact form {
+             width: 90%;
+         }
+     
+         .contact form button {
+             width: 100%;
+         }
+     
+     }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+   
+        .main-info {
+            width: 90%;
+        }
+    
+        .color-slider {
+            width: 11em;
+        }
+    
+        .main-nav {
+            width: 90%;
+        }
+    
+        .banner {
+            width: 90%;
+        }
+    
+        .wrapper {
+            width: 90%;
+        }
+    
+        .column {
+            padding-right: 1em;
+        }
+
+        .wrapper.events {
+            width: 90%;
+        }
+    
+        .wrapper.artists {
+            width: 90%;
+        }
+    
+        .container-artists {
+            width: 80%;
+            flex-wrap: wrap;
+        }
+    
+        .card-artist {
+            width: 40%;
+            margin: 1em;
+        }
+
+        .wrapper.contact {
+            width: 90%;
+            height: auto;
+        }
+
+        .contact form {
+            width: 80%;
+        }
+    
+        .contact form button {
+            width: 100%;
+        }
+    
+    }
+
+
+
+
+
+
+
+@media only screen and (min-width : 1024px) and (max-width: 1439px) {
+    
+        .main-info {
+            width: 90%;
+        }
+    
+        .color-slider {
+            width: 11em;
+        }
+    
+        .main-nav {
+            width: 90%;
+        }
+    
+        .banner {
+            width: 90%;
+        }
+    
+        .wrapper {
+            width: 90%;
+        }
+    
+        .column {
+            padding-right: 1em;
+        }
+
+        .wrapper.events {
+            width: 90%;
+        }
+    
+        .wrapper.artists {
+            width: 90%;
+        }
+    
+        .container-artists {
+            width: 80%;
+            flex-wrap: wrap;
+        }
+    
+        .card-artist {
+            width: 40%;
+            margin: 1em;
+        }
+
+        .wrapper.contact {
+            width: 90%;
+            height: auto;
+        }
+
+        .contact form {
+            width: 80%;
+        }
+    
+        .contact form button {
+            width: 100%;
+        }
+    
+    }
+
+
+
+
+@media only screen and (min-width : 1440px) and (max-width: 1919px) {
+
+    .main-info {
+        width: 70%;
+    }
+
+    .color-slider {
+        width: 11em;
+    }
+
+    .main-nav {
+        width: 70%;
+    }
+
+    .banner {
+        width: 70%;
+    }
+
+    .wrapper {
+        width: 70%;
+    }
+
+    .column {
+        padding-right: 1em;
+    }
+
+    .wrapper.events {
+        width: 70%;
+    }
+
+    .wrapper.artists {
+        width: 70%;
+    }
+
+    .container-artists {
+        width: 100%;
+    }
+
+    .card-artist {
+        width: 25%;
+        margin: 0.2em;
+    }
+
+    .wrapper.contact {
+        width: 70%;
+        height: auto;
+    }
+
+    .contact form button {
+        width: 100%;
+    }
+
+}
